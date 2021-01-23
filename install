@@ -73,6 +73,7 @@ if [ -n "$haPath" ]; then
     info "Installation complete."
     echo
     info "Remember to restart Home Assistant before you configure it"
+    info "If using a Raspberry pi you many need to unplug the power"
 
 else
     echo
